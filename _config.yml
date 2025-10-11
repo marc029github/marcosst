@@ -1,0 +1,8 @@
+title: Marcos F.
+author: Marcos F.
+description: Personal webpage with blog, bio, and GitHub links
+theme: minima
+minima:
+  skin: classic # Options: classic, dark, auto
+  social_links:
+    github: marc029github
