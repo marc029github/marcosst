@@ -12,6 +12,7 @@ show_excerpts: true
 header_pages:
   - physics/index.md
   - computing/index.md
+  - other/index.md
   - about.md
 collections:
   physics:
@@ -20,3 +21,6 @@ collections:
   computing:
     output: true
     permalink: /computing/:title
+  other:
+    output: true
+    permalink: /other/:title
