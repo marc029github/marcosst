@@ -2,8 +2,8 @@ title: Marcos F.
    author: Marcos F.
    description: Personal webpage with Physics and Computing blogs, bio, and GitHub links
    theme: minima
-   baseurl: ""
-   url: "https://marc029github.github.io/marcosst/"
+   baseurl: "/marcosst"
+   url: "https://marc029github.github.io"
    minima:
      skin: classic
      social_links:
