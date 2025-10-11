@@ -1,9 +1,9 @@
----
-layout: home
-title: Welcome
----
+layout: home title: Welcome
+
+Welcome to My Page
+
 # About Me
-Hi, I'm [Your Name]. This is my personal webpage featuring blogs on Physics and Computing, along with my projects. Explore my content below:
+Hi2, I'm [Your Name]. This is my personal webpage featuring blogs on Physics and Computing, along with my projects. Explore my content below:
 - Physics Blog: Insights into quantum mechanics, astrophysics, and more.
 - Computing Blog: Tips and tutorials on programming, algorithms, and software development.
 - About Me: Learn more about my background and interests.
