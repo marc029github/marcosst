@@ -8,7 +8,7 @@ Hi, I'm Marcos. This is my personal webpage featuring activities, notes, hacking
 
 - [Physics Blog]({{ site.baseurl }}/physics/): Insights into quantum mechanics, astrophysics, and more.
 - [Computing Blog]({{ site.baseurl }}/computing/): Tips and tutorials on programming, algorithms, and software development.
-- [Others Blog] ({{ site.baseurl }}/other/): Other content
+- [Others Blog] ({{ site.baseurl }}/other/): Other content main
 - [About Me]({{ site.baseurl }}/about/): Learn more about my background and interests.
 - [GitHub](https://github.com/marc029github): View my open-source projects.
 
