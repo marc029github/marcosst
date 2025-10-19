@@ -14,5 +14,9 @@ General Relativity is a challenging subject, involving lengthy equations (even m
 
 When I finally got my copy of General Relativity: The Theoretical Minimum (Volume IV), I devoted many hours during the summer of 2025 to reading it. To reinforce my understanding, I decided to create my own notes—a kind of summary—to help me both consolidate what I’ve learned and have a quick reference for the main ideas and concepts of GR whenever I need a refresher. The document with the notes can be found in this repository at _physics/2025-10-19-Student Notes on General Relativity.pdf. A quick description of the origin of GR, which to me is the Equivalence Principle, is not in that document of notes. It is explained below.
 
+\
+
 # Equivalence Principle
+
+The Equivalence Principle says that Gravity is in some sense the same as acceleration, although the book itself says that in the presence of a gravitational field, we can feel some phenomena that we cannot feel in the case of acceleration. Essentially we refer to the tidal forces cause by the effect of masses and energy in the spacetime.
 
