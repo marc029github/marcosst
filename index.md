@@ -5,7 +5,7 @@ title: Welcome to My Page
 
 Hi, I'm Marcos. This is my personal webpage featuring activities, notes, hacking and projects, most of them on the topics of Computing and Physics. Explore my content below:
 
-- [Physics Blog]({{ site.baseurl }}/physics/): Things I study of work on in the realm of physics.
+- [Physics Blog]({{ site.baseurl }}/physics/): Things I study or work on in the realm of physics.
 - [Computing Blog]({{ site.baseurl }}/computing/): Mostly embedded software, hardware design, AI and hacking.
 - [Others Blog]({{ site.baseurl }}/other/): Other content.
 - [About Me]({{ site.baseurl }}/about/): Learn more about my background and interests.
