@@ -14,5 +14,5 @@ General Relativity is a challenging subject, involving lengthy equations (even m
 
 When I finally got my copy of General Relativity: The Theoretical Minimum (Volume IV), I devoted many hours during the summer of 2025 to reading it. To reinforce my understanding, I decided to create my own notes—a kind of summary—to help me both consolidate what I’ve learned and have a quick reference for the main ideas and concepts of GR whenever I need a refresher. The document with the notes can be found in this repository at _physics/2025-10-19-Student Notes on General Relativity.pdf. A quick description of the origin of GR, which to me is the Equivalence Principle, is not in that document of notes. It is explained below.
 
-#Equivalence Principle
+# Equivalence Principle
 
