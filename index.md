@@ -1,8 +1,7 @@
 ---
 layout: home
-title: Welcome
+title: Welcome to My Page
 ---
-# Welcome to My Page
 
 Hi, I'm Marcos. This is my personal webpage featuring activities, notes, hacking and projects, most of them on the topics of Computing and Physics. Explore my content below:
 
