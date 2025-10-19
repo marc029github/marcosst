@@ -15,7 +15,7 @@ Hi, I'm Marcos. This is my personal webpage featuring activities, notes, hacking
 
 ### Physics
 {% for item in site.physics limit:2 %}
-- [{{ item.title }}]({{ item.url }}) - {{ item.date | date: "%B %d, %Y" }}
+- [{{ item.title }}]( {{ site.baseurl }}{{ item.url }}  ) - {{ item.date | date: "%B %d, %Y" }}
 {% endfor %}
 
 ### Computing
