@@ -27,3 +27,9 @@ Hi, I'm Marcos. This is my personal webpage featuring activities, notes, hacking
 {% for item in site.other limit:2 %}
 - [{{ item.title }}]({{ site.baseurl }}{{ item.url }}) - {{ item.date | date: "%B %d, %Y" }}
 {% endfor %}
+
+# Contact Information
+
+You can reach me via email:
+
+[Email Me](mailto:fernanm2@proton.me)
