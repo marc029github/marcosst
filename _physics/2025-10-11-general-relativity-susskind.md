@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Introduction to Quantum Mechanics
+title: General Relativity: The Theoretical Minimum
 collection: physics
 date: 2025-10-19
 ---
