@@ -5,9 +5,11 @@ collection: physics
 date: 2025-10-19
 mathjax: true
 ---
+
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js">
 </script>
+
 
 The Theoretical Minimum refers to a series of courses on various topics in physics taught by Professor Leonard Susskind at Stanford University over several years. The recordings of these lectures are available at https://theoreticalminimum.com. The aim of the series is to teach all that is necessary to truly understand modern physics—at a much deeper level than popular science books usually offer.
 
