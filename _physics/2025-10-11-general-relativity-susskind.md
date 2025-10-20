@@ -4,36 +4,35 @@ title: The Theoretical Minimum of General Relativity
 collection: physics
 date: 2025-10-19
 mathjax: true
-
 ---
 
-{% if page.mathjax != false %}
 <script type="text/x-mathjax-config">
-  MathJax = {
+  window.MathJax = {
     tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']],
-      processEscapes: true,
-      tags: 'ams',
-      packages: {'[+]': ['ams', 'noerrors', 'noundefined']}
+      inlineMath: [['$', '$'], ['\\(', '\\)']],  // Explicitly enable $ for inline
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],  // Support both for display
+      processEscapes: true,  // Handle backslashes correctly
+      tags: 'ams',  // AMS extensions for advanced LaTeX
+      packages: { '[+]': ['ams', 'noerrors', 'noundefined'] }  // Load required packages
     },
     options: {
       ignoreHtmlClass: 'tex2jax_ignore|mathjax_ignore|document',
-      processHtmlClass: 'tex2jax_process|mathjax_process|math|output_area'
+      processHtmlClass: 'tex2jax_process|mathjax_process|math|output_area',
+      renderActions: {
+        find: [2000000, 'findMath', false],  // Prioritize math detection
+        findScript: [10, 'findScript', false]  // Handle Kramdown-generated <script> tags
+      }
     },
-    loader: {
-      load: ['[tex]/ams', '[tex]/noerrors']
-    },
+    loader: { load: ['[tex]/ams', '[tex]/noerrors'] },
     startup: {
       ready: () => {
         MathJax.startup.defaultReady();
-        MathJax.typesetPromise();  // Force reprocessing for dynamic content
+        MathJax.typesetPromise();  // Force immediate reprocessing
       }
     }
   };
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-{% endif %}
 
 
 <style>
