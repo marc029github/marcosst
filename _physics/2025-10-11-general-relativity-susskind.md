@@ -22,10 +22,10 @@ The Equivalence Principle says that Gravity is in some sense the same as acceler
 Supongamos un sistema de referencia estacionario x-y-z, por ejemplo la superficie de la tierra, y otro sistema x'-y'-z' pegado al suelo de un ascensor como en la figura siguiente.
 ![Mi imagen]({{ site.baseurl }}/physics/Elevator.png "Figure 1: Elevator and two reference frames")
 
-We start with z'=0, x'=0, y'=0 with respect to the stationary reference frame x-y-z. 
-$
+We start with z'=0, x'=0, y'=0 with respect to the stationary reference frame x-y-z. The elevator will start moving upwards, with its new position being $L(t)$ and:
+$$
 z' = z - L(t)
-$
+$$
 where  $L(t) = \frac{1}{2}gt^2$
 
 
