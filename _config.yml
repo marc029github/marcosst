@@ -9,6 +9,8 @@ minima:
   social_links:
     github: marc029github
 show_excerpts: true
+plugins:
+  - jekyll-mathjax
 header_pages:
   - physics/index.md
   - computing/index.md
