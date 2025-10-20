@@ -1,5 +1,29 @@
 title: Marcos Personal Homepage
-mathjax: true
+# _config.yml
+plugins:
+  - jekyll-mathjax
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  math_engine: mathjax
+  parse_block_html: true
+  # CRITICAL: Enable math blocks for BOTH inline and display
+  math_blocks: true
+
+# Remove mathjax: true - it's deprecated
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Exclude files that interfere
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  
 author: Marcos F.
 description: Personal webpage with stuff built by me or things I consider interesting, around physics and computing.
 theme: minima
@@ -10,8 +34,6 @@ minima:
   social_links:
     github: marc029github
 show_excerpts: true
-plugins:
-  - jekyll-mathjax
 header_pages:
   - physics/index.md
   - computing/index.md
