@@ -59,8 +59,11 @@ This equivalence applies even to light. Consider a particle in the elevator with
 
 $$
 x=ct
+
 z=0
+
 x'=ct
+
 z'=-\frac{g}{2}t^2
 $$
 
