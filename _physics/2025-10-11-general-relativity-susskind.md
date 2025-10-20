@@ -54,6 +54,8 @@ $$
 
 where $v$ is not constant, so the relation between $z'$ and $t$ is a curved. 
 
+With this intro, we are ready to move on to the details in [Student Notes on General Relativity]({{ site.baseurl }}/physics/2025-10-19-Student-Notes-on-General-Relativity.pdf).
+
 
 
 
