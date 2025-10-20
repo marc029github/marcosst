@@ -23,9 +23,10 @@ Supongamos un sistema de referencia estacionario x-y-z, por ejemplo la superfici
 ![Mi imagen]({{ site.baseurl }}/physics/Elevator.png "Figure 1: Elevator and two reference frames")
 
 We start with z'=0, x'=0, y'=0 with respect to the stationary reference frame x-y-z. 
-$$z' = z - L(t)$$
-where 
-$L(t) = \frac{1}{2}gt^2$
+$
+z' = z - L(t)
+$
+where  $L(t) = \frac{1}{2}gt^2$
 
 
 
