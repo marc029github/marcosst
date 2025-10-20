@@ -4,21 +4,37 @@ title: The Theoretical Minimum of General Relativity
 collection: physics
 date: 2025-10-19
 mathjax: true
+
 ---
 
+{% if page.mathjax != false %}
 <script type="text/x-mathjax-config">
   MathJax = {
     tex: {
       inlineMath: [['$', '$'], ['\\(', '\\)']],
       displayMath: [['$$', '$$'], ['\\[', '\\]']],
-      processEscapes: true
+      processEscapes: true,
+      tags: 'ams',
+      packages: {'[+]': ['ams', 'noerrors', 'noundefined']}
+    },
+    options: {
+      ignoreHtmlClass: 'tex2jax_ignore|mathjax_ignore|document',
+      processHtmlClass: 'tex2jax_process|mathjax_process|math|output_area'
+    },
+    loader: {
+      load: ['[tex]/ams', '[tex]/noerrors']
+    },
+    startup: {
+      ready: () => {
+        MathJax.startup.defaultReady();
+        MathJax.typesetPromise();  // Force reprocessing for dynamic content
+      }
     }
   };
 </script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{% endif %}
 
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
 
 <style>
   body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
