@@ -23,7 +23,36 @@ Supongamos un sistema de referencia estacionario x-y-z, por ejemplo la superfici
 ![Mi imagen]({{ site.baseurl }}/physics/Elevator.png "Figure 1: Elevator and two reference frames")
 
 We start with z'=0, x'=0, y'=0 with respect to the stationary reference frame x-y-z. The elevator will start moving upwards, with its new position being $L(t)$ and:
-$z' = z - L(t)$, where  $L(t) = \frac{1}{2}gt^2$, that it, it is moving up with acceleration $g$.
+$z' = z - L(t)$, where  $L(t) = \frac{1}{2}gt^2$, that it, it is moving up with acceleration $g$. If we calculate the derivatives with respect to $t$:
+
+$$
+\ddot{z'} = \ddot{z} - g
+$$
+
+We can write now Newton's equation:
+
+$$
+m\ddot{z'} = F - mg
+$$
+
+In this latter equation we have multiplied both sides by the mass of the particle and have considered $m\ddot{z} = F$. It seems that the mass of the particle times acceleration in the primed reference frame is equal to a force minus the mass of the particle in the elevator times the acceleration $g$. It looks like the acceleration caused by a falling object in the gravity of the Earth. We can consider $g$ to be the acceleration of gravity in this example, equal to the one on the Earth. Of course, we have considered that the inertial mass of $F=ma=m\ddot{z}$ is equal to the particle mass. Note that with this consideration masses cancel out and then the motion of that particle in the presence of this gravitational field (equals acceleration) does not depends on its mass. Based on this mental experiment, we can say that the force (ficticious $F$) of gravity mimicks the effect of gravity, which equivalent to the effect of an acceleration. This way, you cannot differentiate between being falling in the gravitational field of Earth or being pull out by an acceleration without any presence of a gravitational field. 
+
+This effect applies also to light. Imagine the particle has a lintern and emits a ray of light parallel to axis $x$, then:
+
+$$
+x=ct
+z=0
+x'=ct
+z'=-\frac{g}{2}t^2
+$$
+
+We can replace $t$ and write: $z'=-\frac{g}{2c^2}x'^2$. The trajectory in the primed reference frame is a parabola, not straight: light is bending in the presence of this acceleration. In fact, the transformation of one reference frame to the other implies a curvilinear coordinate transformation of the form:
+
+$$
+z'=z - v(t)t
+$$
+
+where $v$ is not constant, so the relation between $z'$ and $t$ is a curved. 
 
 
 
