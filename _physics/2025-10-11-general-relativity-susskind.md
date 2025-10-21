@@ -56,7 +56,9 @@ When I finally got my copy of General Relativity: The Theoretical Minimum (Volum
 The Equivalence Principle says that Gravity is in some sense the same as acceleration, although the book itself says that in the presence of a gravitational field, we can feel some phenomena that we cannot feel in the case of acceleration. Essentially we refer to the tidal forces cause by the effect of masses and energy in the spacetime.
 
 We begin with the primed coordinates at rest relative to the stationary reference frame:
-$x-y-z: z' = 0, x' = 0, y' = 0$
+$
+x-y-z: z' = 0, x' = 0, y' = 0
+$
 
 ![Mi imagen]({{ site.baseurl }}/physics/Elevator.png "Figure 1: Elevator and two reference frames")
 
