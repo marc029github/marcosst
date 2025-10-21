@@ -87,9 +87,13 @@ $$
 m\ddot{z'} = F - mg
 $$
 
-In the latter equation, we multiply both sides by the particle's mass, yielding 
-$m\ddot{z}' = F$
-. It seems that the mass of the particle times acceleration in the primed reference frame is equal to a force minus the mass of the particle in the elevator times the acceleration $g$. It looks like the acceleration caused by a falling object in the gravity of the Earth. We can consider $g$ to be the acceleration of gravity in this example, equal to the one on the Earth. Of course, we have considered that the inertial mass of $F=ma=m\ddot{z}$ is equal to the particle mass. Note that with this assumption, the masses cancel out and then the motion of that particle in the presence of this gravitational field (equivalent to acceleration) does not depends on its mass. Based on this mental experiment, we can say that the force (ficticious $F$) of gravity mimicks the effect of gravity, which is equivalent to the effect of an acceleration. This way, you cannot differentiate between being falling in the gravitational field of the Earth or being pull out by an acceleration without any presence of gravitational field. 
+In the latter equation, we multiply both sides by the particle's mass, yielding: 
+
+$$
+m\ddot{z}' = F
+$$
+
+It seems that the mass of the particle times acceleration in the primed reference frame is equal to a force minus the mass of the particle in the elevator times the acceleration *g*. It looks like the acceleration caused by a falling object in the gravity of the Earth. We can consider *g* to be the acceleration of gravity in this example, equal to the one on the Earth. Of course, we have considered that the inertial mass of *F=ma* is equal to the particle mass. Note that with this assumption, the masses cancel out and then the motion of that particle in the presence of this gravitational field (equivalent to acceleration) does not depends on its mass. Based on this mental experiment, we can say that the force (ficticious $F$) of gravity mimicks the effect of gravity, which is equivalent to the effect of an acceleration. This way, you cannot differentiate between being falling in the gravitational field of the Earth or being pull out by an acceleration without any presence of gravitational field. 
 
 This equivalence applies even to light. Consider a particle in the elevator with a lantern emitting a light ray parallel to the $x$-axis:
 
@@ -109,13 +113,19 @@ $$
 z'=-\frac{g}{2}t^2
 $$
 
-We can replace $t$ and write: $z'=-\frac{g}{2c^2}x'^2$. The trajectory in the primed reference frame is a parabola, it is not straight: light appears curved downwards in the presence of this acceleration. In fact, the transformation of one reference frame to the other implies a curvilinear coordinate transformation of the form:
+We can replace *t*and write: 
+
+$$
+z'=-\frac{g}{2c^2}x'^2
+$$
+
+The trajectory in the primed reference frame is a parabola, it is not straight: light appears curved downwards in the presence of this acceleration. In fact, the transformation of one reference frame to the other implies a curvilinear coordinate transformation of the form:
 
 $$
 z'=z - v(t)t
 $$
 
-where $v$ is not constant, so the relation between $z'$ and $t$ is a curved. 
+where *v* is not constant, so the relation between *z'* and *t* is a curved. 
 
 With this intro, we are ready to proceed to the full set of GR concepts in [Student Notes on General Relativity]({{ site.baseurl }}/physics/2025-10-19-Student-Notes-on-General-Relativity.pdf).
 
