@@ -1,0 +1,26 @@
+<!-- _includes/mathjax.html -->
+<script type="text/x-mathjax-config">
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],  // Enable $ for inline math
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],  // Support display math
+      processEscapes: true,  // Handle $ in text
+      processEnvironments: true,
+      tags: 'ams'
+    },
+    options: {
+      ignoreHtmlClass: 'nomathjax|mathjax_ignore',
+      processHtmlClass: 'mathjax_process|math',
+      renderActions: {
+        find: [10, function (doc) { doc.findMath({inlineMath: [['$', '$']]}); }, false]
+      }
+    },
+    startup: {
+      ready: () => {
+        MathJax.startup.defaultReady();
+        MathJax.typesetPromise().catch(err => console.log('MathJax typeset failed:', err));
+      }
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
