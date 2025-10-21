@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: The Theoretical Minimum of General Relativity
 collection: physics
 date: 2025-10-19
