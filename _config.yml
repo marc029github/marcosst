@@ -1,7 +1,5 @@
 title: Marcos Personal Homepage
 # _config.yml
-plugins:
-  - jekyll-mathjax
 markdown: kramdown
 kramdown:
   input: GFM
@@ -12,7 +10,6 @@ kramdown:
   # CRITICAL: Enable math blocks for BOTH inline and display
   math_blocks: true
 
-# Remove mathjax: true - it's deprecated
 plugins:
   - jekyll-feed
   - jekyll-sitemap
