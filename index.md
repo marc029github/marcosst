@@ -32,4 +32,4 @@ Hi, I'm Marcos. This is my personal webpage featuring activities, notes, hacking
 
 You can reach me via email:
 
-[Email Me](mailto:fernanm2@proton.me)
+[fernanm2@proton.me](mailto:fernanm2@proton.me)
