@@ -2,23 +2,26 @@
 <script type="text/x-mathjax-config">
   window.MathJax = {
     tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],  // Enable $ for inline math
-      displayMath: [['$$', '$$'], ['\\[', '\\]']],  // Support display math
+      inlineMath: [['$', '$'], ['\\(', '\\)']],  // Enable single $
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
       processEscapes: true,  // Handle $ in text
       processEnvironments: true,
-      tags: 'ams'
+      tags: 'ams',
+      packages: {'[+]': ['ams', 'noerrors']}
     },
     options: {
       ignoreHtmlClass: 'nomathjax|mathjax_ignore',
-      processHtmlClass: 'mathjax_process|math',
+      processHtmlClass: 'math|output_area',
       renderActions: {
-        find: [10, function (doc) { doc.findMath({inlineMath: [['$', '$']]}); }, false]
+        findMath: [10, function (doc) {
+          doc.findMath({inlineMath: [['$', '$']]});
+        }, false]
       }
     },
     startup: {
       ready: () => {
         MathJax.startup.defaultReady();
-        MathJax.typesetPromise().catch(err => console.log('MathJax typeset failed:', err));
+        MathJax.typesetPromise().catch(err => console.log('MathJax Error:', err));
       }
     }
   };
