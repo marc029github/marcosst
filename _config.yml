@@ -7,8 +7,6 @@ kramdown:
   syntax_highlighter: rouge
   math_engine: mathjax
   parse_block_html: true
-  # CRITICAL: Enable math blocks for BOTH inline and display
-  math_blocks: true
 
 plugins:
   - jekyll-feed
