@@ -68,7 +68,11 @@ $$
 z' = z - L(t)
 $$
 
-Given $L(t) = \frac{1}{2}gt^2$, the elevator accelerates upward with constant acceleration *g*. Differentiating with respect to time *t*
+Given 
+$$
+L(t) = \frac{1}{2}gt^2
+$$
+the elevator accelerates upward with constant acceleration *g*. Differentiating with respect to time *t*
 
 $$
 \ddot{z'} = \ddot{z} - g
