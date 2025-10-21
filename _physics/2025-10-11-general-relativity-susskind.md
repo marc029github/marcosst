@@ -41,7 +41,7 @@ mathjax: true
 </style>
 
 
-The Theoretical Minimum refers to a series of courses on various topics in physics taught by Professor Leonard Susskind at Stanford University over several years. The recordings of these lectures are available at https://theoreticalminimum.com. The aim of the series is to teach all that is necessary to truly understand modern physics—at a much deeper level than popular science books usually offer.
+The Theoretical Minimum refers to a series of courses on various topics in physics taught by Professor Leonard Susskind at Stanford University over several years. The recordings of these lectures are available at [The Theoretical Minimum](https://theoreticalminimum.com). The aim of the series is to teach all that is necessary to truly understand modern physics—at a much deeper level than popular science books usually offer.
 
 In my opinion, these are ideal courses for people in science and technology—non-physicists such as engineers—who want to go beyond the basic foundations they learned during their undergraduate years. They are also excellent for first- or second-year physics students who wish to gain an early glimpse into advanced physics. People in that position, like myself, do believe that one can hardly learn anything truly meaningful in science without using equations, which are essential for expressing ideas deeply and rigorously. Professor Susskind did an outstanding job with these continuing classes, for which people like myself are deeply grateful. Some of his students later decided to write books based on them. Many had already compiled and published lecture notes, so moving on to write full books seemed a natural next step.
 
