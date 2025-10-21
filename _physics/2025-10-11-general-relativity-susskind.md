@@ -58,7 +58,7 @@ The Equivalence Principle says that Gravity is in some sense the same as acceler
 We begin with the primed coordinates at rest relative to the stationary reference frame:
 
 $$
-x-y-z: z' = 0, x' = 0, y' = 0
+x-y-z: \ z' = 0, x' = 0, y' = 0
 $$
 
 ![Mi imagen]({{ site.baseurl }}/physics/Elevator.png "Figure 1: Elevator and two reference frames")
