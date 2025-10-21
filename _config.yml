@@ -1,4 +1,6 @@
 title: Marcos Personal Homepage
+author: Marcos F.
+description: Personal webpage with stuff built by me or things I consider interesting, around physics and computing.
 # _config.yml
 markdown: kramdown
 kramdown:
@@ -19,8 +21,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   
-author: Marcos F.
-description: Personal webpage with stuff built by me or things I consider interesting, around physics and computing.
 theme: minima
 baseurl: "/marcosst"
 url: "https://marc029github.github.io"
