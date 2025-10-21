@@ -63,7 +63,7 @@ $$
 
 ![Mi imagen]({{ site.baseurl }}/physics/Elevator.png "Figure 1: Elevator and two reference frames")
 
-The elevator then accelerates upward, with its position given by $L(t)$, where:
+The elevator then accelerates upward, with its position given by *L(t)*, where:
 
 $$
 z' = z - L(t)
