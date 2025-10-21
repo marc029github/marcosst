@@ -28,6 +28,9 @@ Hi, I'm Marcos. This is my personal webpage featuring activities, notes, hacking
 - [{{ item.title }}]({{ site.baseurl }}{{ item.url }}) - {{ item.date | date: "%B %d, %Y" }}
 {% endfor %}
 
+## Recent Posts
+I am @marc029fernande on X. Also find my resume at [LinkedIn](https://www.linkedin.com/in/marcosfernandez0307)
+
 # Contact Information
 
 You can reach me via email:
