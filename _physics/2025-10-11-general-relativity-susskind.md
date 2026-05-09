@@ -127,7 +127,7 @@ $$
 
 where *v* is not constant, so the relation between *z'* and *t* is a curved. 
 
-With this intro, we are ready to proceed to the full set of GR concepts in [Student Notes on General Relativity]({{ site.baseurl }}/physics/A_Quick_Guide_to_General_Relativity_v8.pdf).
+With this intro, we are ready to proceed to the full set of GR concepts in [Student Notes on General Relativity]({{ site.baseurl }}/physics/A-Quick-Guide-to-General-Relativity-v8.pdf).
 
 
 
