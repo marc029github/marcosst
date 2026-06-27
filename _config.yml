@@ -22,7 +22,7 @@ exclude:
   - Gemfile.lock
   
 theme: minima
-baseurl: "/marcosst"
+baseurl: ""
 url: "https://marc029github.github.io"
 minima:
   skin: classic
